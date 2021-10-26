@@ -19,7 +19,7 @@ const Posts = () => {
 
   return (
     <div>
-      <h1>Posts</h1>
+      <h1>Posts</h1><Link to={`/create`}>Create</Link>
       {Object.keys(posts).map((id, post) => (
         <div key={id}>
           <h2>
